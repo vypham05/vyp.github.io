@@ -1,0 +1,157 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    width: 800px;
+    margin: auto;
+}
+#top{
+    height: 80px;
+    background: #7a4ed2;
+    line-height: 80px;
+}
+#tenchu h1{
+    width: 300px;
+    float: left;
+}
+#menu{
+    height: 30px;
+    background: #ffffff;
+    border: 1px solid #000000;
+
+}
+
+#menu ul li{
+    list-style-type: none;
+    float: left;
+    width: 159px;
+    text-align: center;
+    line-height: 30px;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    color: rgb(123, 0, 255);
+}
+#menu h2:hover{
+    background-color: rgb(202, 135, 249);
+}
+#menu h3:hover{
+    background-color: rgb(202, 135, 249);
+}
+
+#left{
+    float: left;
+    width: 620px;
+    border-right:1px solid #ffffff;
+    margin-left: 10px;
+}
+
+.news{
+    border-bottom: 1px solid #000000;
+    margin: 5px 10px 5px 10px;
+    padding-bottom: 5px;
+}
+
+.news h3{
+    margin-bottom: 5px;
+}
+.news h3:hover{
+    color: #7a4ed2;
+}
+.news img{
+    border: 1px solid #dedeec;
+    padding: 2px;
+    float: left;
+    margin-right: 10px;
+}
+
+#left a{
+    text-decoration: none;
+    color: #000000;
+}
+.tinchinh{
+    font-size: 15px;
+    padding-left: 10px;
+    margin-top: 20px;
+    float: left;
+    width: 620px;
+}
+
+.tinchinh.img{
+    width: 100%;
+}
+
+.tinchinh a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+}
+
+.tinchinh a:hover{
+    color: #7a4ed2;
+}
+a.anh1 h3{
+    margin: 0px;
+    padding: 0px;
+}
+#bottom{
+    height: 40px;
+    background: #070622;
+    color: aliceblue;
+    text-align: center;
+}
+.duoi{
+    float:right;
+    width: 169px;
+    margin-top: 20px;
+}
+.duoi img{
+    width: 100%;
+    height: 125px;
+}
+.cot1{
+    margin-bottom: 3px;
+}
+
+a.c1{
+    text-decoration: none;
+    color: rgb(65, 65, 65);
+    font-size: 13px;
+}
+
+.c1:hover{
+    color: #7a4ed2;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    line-height: 50px;
+    margin-top: 20px;
+    float:right;
+  }
+  .search-input {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: right;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  .search-button {
+    float: right;
+    padding: 10px;
+    background: #333;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  .search-button:hover {
+    background: #4f06f7;
+  }
